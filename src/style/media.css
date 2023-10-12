@@ -1,0 +1,104 @@
+@media (max-width: 975px) and (min-width: 550px){
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        flex-direction: row;
+        width: 90%;
+        height: 60%;
+    }
+
+    #results{
+        border-radius: 30px;
+    }
+    #great p {
+        font-size: 15px;
+    }
+    #infs{
+        padding-top: 40px;
+    }
+    #summary{
+        width: 90%;
+        
+        font-size: 30px;
+        text-align: left;
+    }
+    #bola{
+        width: 150px;
+        height: 150px;
+    }
+    .status{
+        height: 150%;
+    }
+}
+
+@media (max-width: 1475px) and (min-width: 975px){
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        flex-direction: row;
+        width: 60%;
+        height: 65%;
+    }
+
+    #results{
+        border-radius: 30px;
+    }
+    #great p {
+        font-size: 15px;
+    }
+    #infs{
+        padding-top: 40px;
+    }
+    #summary{
+        width: 90%;
+        
+        font-size: 30px;
+        text-align: left;
+    }
+    #bola{
+        width: 190px;
+        height: 190px;
+    }
+    .status{
+        height: 150%;
+    }
+}
+
+@media (max-width: 4475px) and (min-width: 1475px){
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        flex-direction: row;
+        width: 60%;
+        height: 65%;
+    }
+
+    #results{
+        border-radius: 30px;
+    }
+    #great p {
+        font-size: 20px;
+    }
+    #infs{
+        padding-top: 40px;
+    }
+    #summary{
+        width: 90%;
+        
+        font-size: 35px;
+        text-align: left;
+    }
+    #bola{
+        width: 250px;
+        height: 250px;
+    }
+    .status{
+        height: 150%;
+    }
+}
