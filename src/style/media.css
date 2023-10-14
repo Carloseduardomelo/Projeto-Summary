@@ -6,49 +6,14 @@
     main{
         flex-direction: row;
         width: 95%;
-        height: 60%;
+        height: 50%;
     }
 
     #results{
         border-radius: 30px;
     }
     #great p {
-        font-size: 15px;
-    }
-    #infs{
-        padding-top: 40px;
-    }
-    #summary{
-        width: 90%;
-        
-        font-size: 30px;
-        text-align: left;
-    }
-    #bola{
-        width: 150px;
-        height: 150px;
-    }
-    .status{
-        height: 150%;
-    }
-}
-
-@media (max-width: 1475px) and (min-width: 975px){
-    body{
-        align-items: center;
-        justify-content: center;
-    }
-    main{
-        flex-direction: row;
-        width: 60%;
-        height: 65%;
-    }
-
-    #results{
-        border-radius: 30px;
-    }
-    #great p {
-        font-size: 15px;
+        font-size: 20px;
     }
     #infs{
         padding-top: 40px;
@@ -68,6 +33,41 @@
     }
 }
 
+@media (max-width: 1475px) and (min-width: 975px){
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        flex-direction: row;
+        width: 90%;
+        height: 58%;
+    }
+
+    #results{
+        border-radius: 30px;
+    }
+    #great p {
+        font-size: 20px;
+    }
+    #infs{
+        padding-top: 40px;
+    }
+    #summary{
+        width: 90%;
+        
+        font-size: 30px;
+        text-align: left;
+    }
+    #bola{
+        width: 290px;
+        height: 290px;
+    }
+    .status{
+        height: 150%;
+    }
+}
+
 @media (max-width: 4475px) and (min-width: 1475px){
     body{
         align-items: center;
@@ -76,7 +76,7 @@
     main{
         flex-direction: row;
         width: 60%;
-        height: 65%;
+        height: 55%;
     }
 
     #results{
