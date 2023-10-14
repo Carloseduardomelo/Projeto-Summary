@@ -1,11 +1,11 @@
-@media (max-width: 975px) and (min-width: 550px){
+@media (max-width: 975px) and (min-width: 700px){
     body{
         align-items: center;
         justify-content: center;
     }
     main{
         flex-direction: row;
-        width: 90%;
+        width: 95%;
         height: 60%;
     }
 
